@@ -5,7 +5,7 @@ MoveApps
 Github repository: https://github.com/ctmm-initiative/ctmmMoveApp_akdepop
 
 ## Description
-Calculate mean home-range size and the population home-range of several animals.
+Calculate mean home-range size, the joint home-range of the sample of tracked animals (=distribution of samples) and the population home range.
 
 ## Documentation
 The app starts with a calculated autocorrelated kernel density estimates for several animals and then calculates a population mean home-range size, the joint home-range of the sample and the population home-range.
@@ -22,7 +22,7 @@ The app starts with a calculated autocorrelated kernel density estimates for sev
 
 `akdepop_summary.csv`: A summary of the of the mean home-range area (as returned by the function `ctmm::meta()`), the mean home-range area of the sample and the estimated home-range of the population (as returned by the `pkde()`-function). 
 
-- `dist_of_sample_and_pop.pdf`: A plot of the distribution of samples and the distrubiton of the population home range as map. 
+- `dist_of_sample_and_pop.pdf`: A plot of the distribution of samples and the distribution of the population home range as map. 
 
 - `dist_pop.gpkg`: A geopackage of the population home range at the 95 % isopleth. 
 
