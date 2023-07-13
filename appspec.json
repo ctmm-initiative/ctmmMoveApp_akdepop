@@ -16,6 +16,9 @@
   "language": "eng",
   "keywords": [
     "home range",
+    "autokorrelated kernel density estimate",
+    "akde",
+    "pkde",
     "population home range", 
     "ctmm"
   ],
