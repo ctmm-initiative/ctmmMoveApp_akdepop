@@ -1,4 +1,5 @@
 library(ctmm)
+library(sf)
 
 rFunction = function(data) {
   
